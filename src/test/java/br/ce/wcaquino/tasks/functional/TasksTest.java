@@ -24,7 +24,7 @@ public class TasksTest {
 		
 	}
 	
-	/* @Test
+	@Test
 	public void deveSalvarTarefaComSucesso() throws MalformedURLException {
 		WebDriver driver = acessarAplicacao();
 		try {
@@ -35,7 +35,7 @@ public class TasksTest {
 			driver.findElement(By.id("task")).sendKeys("Teste via Selenium 11");
 
 			// descrever a data
-			driver.findElement(By.id("dueDate")).sendKeys("17/02/2024");
+			driver.findElement(By.id("dueDate")).sendKeys("17/02/2025");
 
 			// clicar em salvar
 			driver.findElement(By.id("saveButton")).click();
@@ -48,7 +48,7 @@ public class TasksTest {
 			driver.quit();
 		}
 
-	} */
+	}
 	
 	@Test
 	public void naoDeveSalvarTarefaSemDescricao() throws MalformedURLException {
